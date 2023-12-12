@@ -22,7 +22,7 @@ pipeline {
 
         stage('deploy') {
               steps {
-                 sh "echo "Deployed on system "  "
+                 sh 'echo "Deployed on system "  '
                      }
                 }
     }
